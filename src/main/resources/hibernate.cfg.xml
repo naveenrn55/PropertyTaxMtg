@@ -12,7 +12,7 @@
 		<property name="hibernate.connection.password">root</property>
 		<property name="hibernate.connection.url">jdbc:mysql://mysql_server:3306/tax_management?createDatabaseIfNotExist=true</property>
 		<property name="hibernate.hbm2ddl.auto">create</property>
-		<property name="hibernate.hbm2ddl.import_files">initial_data.sql</property>
+		<property name="hibernate.hbm2ddl.import_files">db_create.sql</property>
 		<property name="hibernate.connection.verifyServerCertificate">false</property>
 		<property name="hibernate.connection.requireSSL">false</property>
 		<property name="hibernate.c3p0.min_size">5</property>
