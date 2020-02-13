@@ -14,6 +14,7 @@ import javax.persistence.Id;
  * </pre>
  */
 @Entity
+@Table(name = "collectedtax")
 public class CollectedTax {
     /**
      * CollectedTaxId taxId.
