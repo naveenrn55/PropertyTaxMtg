@@ -17,6 +17,7 @@ import org.hibernate.annotations.GenericGenerator;
  * </pre>
  */
 @Entity
+@Table(name = "propertytype")
 public class PropertyType {
     /**
      * int id.
