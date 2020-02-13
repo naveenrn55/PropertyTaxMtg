@@ -3,6 +3,7 @@ package com.mindtree.propertytax.entity;
 import javax.persistence.Column;
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
+import javax.persistence.Table;
 
 /**
  * <pre>
@@ -23,6 +24,7 @@ import javax.persistence.Entity;
  * </pre>
  */
 @Entity
+@Table(name = "taxcost")
 public class TaxCost {
 
     /**
