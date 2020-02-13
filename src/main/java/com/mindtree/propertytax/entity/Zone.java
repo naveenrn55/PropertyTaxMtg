@@ -14,6 +14,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 import org.hibernate.annotations.GenericGenerator;
 
@@ -27,6 +28,7 @@ import org.hibernate.annotations.GenericGenerator;
  * </pre>
  */
 @Entity
+@Table(name = "zone")
 public class Zone {
     /**
      * int id.
