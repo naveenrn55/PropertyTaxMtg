@@ -3,6 +3,7 @@ package com.mindtree.propertytax.entity;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  * <pre>
