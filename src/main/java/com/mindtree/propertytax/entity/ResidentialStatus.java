@@ -17,6 +17,7 @@ import org.hibernate.annotations.GenericGenerator;
  * </pre>
  */
 @Entity
+@Table(name = "residentialstatus")
 public class ResidentialStatus {
     /**
      * int srNo.
