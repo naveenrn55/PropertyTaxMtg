@@ -11,7 +11,7 @@
 	<properties>
 		<org.springframework.version>4.3.14.RELEASE</org.springframework.version>
 		<log4j.version>1.2.17</log4j.version>
-		<jackson.version>2.9.4</jackson.version>
+		<jackson.version>2.12.6.1</jackson.version>
 		<mysql.connector.version>5.0.5</mysql.connector.version>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
